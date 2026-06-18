@@ -1,0 +1,16 @@
+{
+  "name": "day-9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "backend": "npm --prefix backend start",
+    "frontend": "npm --prefix frontend run dev",
+    "dev": "npm --prefix backend run dev",
+    "start": "npm --prefix backend start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs"
+}
