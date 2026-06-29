@@ -1,6 +1,6 @@
 const jwt = require('jsonwebtoken')
 
-async function identifyUser(req, res, next) { // as a middleware use hota h next use krke
+async function identifyUser(req, res, next) {
     const token = req.cookies.token
 
     if (!token) {
@@ -23,5 +23,7 @@ async function identifyUser(req, res, next) { // as a middleware use hota h next
 
     next()
 }
+
+/* req.user */
 
 module.exports = identifyUser
